@@ -14,3 +14,8 @@ For software engineering's this means that you don't want to just start with an 
 and then let your class implement multiple interfaces as needed smaller interfaces. 
 
 According to this principle, engineers should work to have many client-specific interfaces, avoiding the temptation of having one big, general purpose interface. 
+
+## Dependency Inversion Principle
+This principle offers a way to decouple software module. Developers should depend on abstration not on concreations. 
+
+High level modules should not depend upon low level modules. Both should depend on abstractions. Further, abstration should not depend on details. Details should depend upon abstrations.
